@@ -1,7 +1,7 @@
+EAPI=3
+
 CABAL_FEATURES="lib haddock profile hscolour"
 inherit haskell-cabal
-
-EAPI=3
 
 DESCRIPTION="A Haskell interface to setlocale()"
 HOMEPAGE=""
