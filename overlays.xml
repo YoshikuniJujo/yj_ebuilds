@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+<repo quality="experimental" status="official">
+	<name>YoshikuniJujo</name>
+	<description>Yoshikuni Jujo's ebuilds</description>
+	<homepage></homepage>
+	<owner type="project">
+		<email>PAF01143@nifty.ne.jp</email>
+		<name>Yoshikuni Jujo</name>
+	</owner>
+	<sourct type="git">git://github.com/YoshikuniJujo/yj_ebuilds.git</source>
+	<source type="git">https://github.com/YoshikuniJujo/yj_ebuilds.git</source>
+</repo>
+</repositories>
