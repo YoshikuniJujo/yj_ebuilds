@@ -9,7 +9,7 @@
 		<email>PAF01143@nifty.ne.jp</email>
 		<name>Yoshikuni Jujo</name>
 	</owner>
-	<sourct type="git">git://github.com/YoshikuniJujo/yj_ebuilds.git</source>
+	<source type="git">git://github.com/YoshikuniJujo/yj_ebuilds.git</source>
 	<source type="git">https://github.com/YoshikuniJujo/yj_ebuilds.git</source>
 </repo>
 </repositories>
