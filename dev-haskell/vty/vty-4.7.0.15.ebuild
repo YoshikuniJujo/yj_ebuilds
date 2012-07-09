@@ -5,7 +5,7 @@ inherit haskell-cabal
 
 DESCRIPTION="A simple terminal access library"
 HOMEPAGE="https://github.com/coreyoconnor/vty"
-SRC_URI="http://homepage3.nifty.com/salamander/second/portage/distfiles/vty-4.7.0.14.2.tar.gz"
+SRC_URI="http://homepage3.nifty.com/salamander/second/portage/distfiles/vty-4.7.0.15.tar.gz"
 
 LICENSE="BSD3"
 SLOT="0"
