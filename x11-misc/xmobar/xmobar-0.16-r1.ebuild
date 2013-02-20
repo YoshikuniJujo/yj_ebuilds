@@ -13,7 +13,6 @@ KEYWORDS="x86"
 
 DEPEND=">=dev-lang/ghc-6.10
 dev-haskell/cabal
-dev-haskell/time
 <dev-haskell/x11-1.7
 >=dev-haskell/mtl-2.0
 <dev-haskell/parsec-3.2
