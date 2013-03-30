@@ -2,7 +2,7 @@
 <!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
 <repositories xmlns="" version="1.0">
 <repo quality="experimental" status="unofficial">
-	<name>YoshikuniJujo</name>
+	<name>yoshikuni-jujo</name>
 	<description>Yoshikuni Jujo's ebuilds</description>
 	<homepage></homepage>
 	<owner type="project">
