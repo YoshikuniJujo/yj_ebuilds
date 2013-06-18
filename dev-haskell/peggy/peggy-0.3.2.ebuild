@@ -13,7 +13,6 @@ KEYWORDS="x86"
 
 DEPEND=">=dev-lang/ghc-6.10
 dev-haskell/cabal
-dev-haskell/peggy
 >=dev-haskell/mtl-2.0
 <dev-haskell/listlike-3.2
 <dev-haskell/hashtables-1.1
