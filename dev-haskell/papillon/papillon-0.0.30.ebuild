@@ -5,7 +5,7 @@ inherit haskell-cabal
 
 DESCRIPTION="packrat parser"
 HOMEPAGE="https://skami.iocikun.jp/haskell/packages/papillon"
-SRC_URI="http://homepage3.nifty.com/salamander/second/portage/distfiles/papillon-0.0.7.tar.gz"
+SRC_URI="http://homepage3.nifty.com/salamander/second/portage/distfiles/papillon-0.0.30.tar.gz"
 
 LICENSE="BSD3"
 SLOT="0"
