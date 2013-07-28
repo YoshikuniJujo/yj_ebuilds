@@ -5,7 +5,7 @@ inherit haskell-cabal
 
 DESCRIPTION="packrat parser"
 HOMEPAGE="https://skami.iocikun.jp/haskell/packages/papillon"
-SRC_URI="http://homepage3.nifty.com/salamander/second/portage/distfiles/papillon-0.0.31.tar.gz"
+SRC_URI="http://homepage3.nifty.com/salamander/second/portage/distfiles/papillon-0.0.59.tar.gz"
 
 LICENSE="BSD3"
 SLOT="0"
@@ -15,6 +15,7 @@ DEPEND=">=dev-lang/ghc-6.10
 dev-haskell/cabal
 dev-haskell/monads-tf
 dev-haskell/transformers
+dev-haskell/papillon
 dev-haskell/monads-tf
 dev-haskell/transformers
 "
