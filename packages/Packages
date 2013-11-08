@@ -32,3 +32,21 @@ SIZE: 7216622
 USE: doc hscolour
 REPO: x-portage
 
+
+BUILD_TIME: 1382938222
+CPV: dev-haskell/zasni-gerna-0.0.1
+DEFINED_PHASES: compile configure install postinst prerm setup test
+DEPEND: >=dev-lang/ghc-6.10 dev-haskell/cabal dev-haskell/papillon dev-haskell/haddock dev-haskell/hscolour >=dev-haskell/cabal-1.1.4
+DESC: lojban parser (zasni gerna)
+EAPI: 3
+IUSE: doc hscolour profile
+KEYWORDS: x86
+LICENSE: BSD3
+MD5: 43cfed8de13759c6da3d4377b4ed712e
+MTIME: 1383871341
+RDEPEND: >=dev-lang/ghc-6.10 dev-haskell/cabal dev-haskell/papillon
+SHA1: cc31635557881222af16a225afe1e8b5cbce84ab
+SIZE: 1645594
+USE: doc hscolour profile
+REPO: gentoo-YoshikuniJujo
+
