@@ -23,7 +23,7 @@ DEPEND: >=dev-lang/ghc-6.10 dev-haskell/cabal dev-haskell/papillon >=dev-haskell
 DESC: lojban parser (zasni gerna)
 EAPI: 3
 IUSE: doc hscolour profile
-KEYWORDS: x86
+KEYWORDS: x86 amd64
 LICENSE: BSD3
 MD5: af6711e6b0410d713ec73addbda8a7b1
 MTIME: 1383873158
