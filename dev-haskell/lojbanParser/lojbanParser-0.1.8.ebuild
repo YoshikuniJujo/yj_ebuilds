@@ -13,5 +13,4 @@ KEYWORDS="x86"
 
 DEPEND=">=dev-lang/ghc-6.10
 dev-haskell/cabal
-dev-haskell/lojbanParser
 "
