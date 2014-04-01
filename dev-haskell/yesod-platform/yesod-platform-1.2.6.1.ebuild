@@ -98,7 +98,7 @@ dev-haskell/cabal
 =dev-haskell/primitive-0.5.1.0
 =dev-haskell/process-conduit-1.0.0.1
 =dev-haskell/publicsuffixlist-0.1
-=dev-haskell/pureMD5-2.1.2.1
+=dev-haskell/puremd5-2.1.2.1
 =dev-haskell/pwstore-fast-2.4.1
 =dev-haskell/quickcheck-io-0.1.0
 =dev-haskell/resource-pool-0.2.1.1
