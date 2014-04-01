@@ -13,7 +13,6 @@ KEYWORDS="x86"
 
 DEPEND=">=dev-lang/ghc-6.10
 dev-haskell/cabal
-dev-haskell/yaml
 >=dev-haskell/aeson-0.5
 >=dev-haskell/transformers-0.1
 >=dev-haskell/conduit-0.5
