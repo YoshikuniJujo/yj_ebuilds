@@ -28,7 +28,7 @@ dev-haskell/unordered-containers
 >=dev-haskell/transformers-0.2.2
 >=dev-haskell/persistent-1.2
 >=dev-haskell/persistent-template-1.2
->=dev-haskell/SHA-1.4.1.3
+>=dev-haskell/sha-1.4.1.3
 >=dev-haskell/http-conduit-1.5
 >=dev-haskell/aeson-0.5
 >=dev-haskell/pwstore-fast-2.2
