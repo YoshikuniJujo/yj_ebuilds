@@ -16,7 +16,7 @@ dev-haskell/cabal
 >=dev-haskell/authenticate-1.3
 >=dev-haskell/yesod-core-1.2
 >=dev-haskell/wai-1.4
->=dev-haskell/pureMD5-2.0
+>=dev-haskell/puremd5-2.0
 >=dev-haskell/text-0.7
 >=dev-haskell/mime-mail-0.3
 >=dev-haskell/yesod-persistent-1.2
