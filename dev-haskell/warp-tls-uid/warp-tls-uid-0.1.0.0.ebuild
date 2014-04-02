@@ -13,7 +13,6 @@ KEYWORDS="x86 amd64"
 
 DEPEND=">=dev-lang/ghc-6.10
 dev-haskell/cabal
-dev-haskell/warp-tls-uid
 <dev-haskell/warp-2.1
 <dev-haskell/wai-2.1
 <dev-haskell/network-2.5
