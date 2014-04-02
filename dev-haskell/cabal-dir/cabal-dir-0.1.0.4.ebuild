@@ -9,7 +9,7 @@ SRC_URI="http://hackage.haskell.org/package/cabal-dir-0.1.0.4/cabal-dir-0.1.0.4.
 
 LICENSE="BSD3"
 SLOT="0"
-KEYWORDS="x86"
+KEYWORDS="x86 amd64"
 
 DEPEND=">=dev-lang/ghc-6.10
 dev-haskell/cabal
