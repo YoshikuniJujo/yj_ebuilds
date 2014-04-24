@@ -123,7 +123,7 @@ dev-haskell/cabal
 =dev-haskell/transformers-base-0.4.1
 =dev-haskell/unix-compat-0.4.1.1
 =dev-haskell/unordered-containers-0.2.4.0
-=dev-haskell/utf8-string-0.3.7
+=dev-haskell/utf8-string-0.3.7-r1
 =dev-haskell/vector-0.10.9.1
 =dev-haskell/void-0.6.1
 =dev-haskell/wai-2.1.0.2
