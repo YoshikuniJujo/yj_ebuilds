@@ -15,7 +15,6 @@ DEPEND=">=dev-lang/ghc-6.10
 dev-haskell/cabal
 <dev-haskell/monads-tf-0.5
 <dev-haskell/transformers-0.5
-dev-haskell/papillon
 <dev-haskell/monads-tf-0.5
 <dev-haskell/transformers-0.5
 "
