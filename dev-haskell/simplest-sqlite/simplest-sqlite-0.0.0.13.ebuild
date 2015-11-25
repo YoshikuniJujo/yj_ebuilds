@@ -15,4 +15,5 @@ DEPEND=">=dev-lang/ghc-6.10
 dev-haskell/cabal
 >=dev-haskell/text-1.1
 <dev-haskell/exception-hierarchy-0.0.1
+>=dev-db/sqlite-3
 "
