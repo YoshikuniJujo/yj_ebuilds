@@ -32,7 +32,7 @@ DEPEND="${RDEPEND}
 	x11-base/xorg-proto"
 # autoconf dependency hopefully temporary, see Bug #827852
 BDEPEND="virtual/pkgconfig
-	>=sys-devel/autoconf-2.71"
+	>=dev-build/autoconf-2.71"
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-9.06-case-insensitive-fs.patch
