@@ -33,7 +33,6 @@ DEPEND="${RDEPEND}
 BDEPEND="virtual/pkgconfig"
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-9.21-xsubpp.patch
 )
 DOCS=(
 	Changes
