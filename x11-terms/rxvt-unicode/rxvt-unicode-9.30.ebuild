@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -14,9 +14,9 @@ SRC_URI="http://dist.schmorp.de/rxvt-unicode/Attic/${P}.tar.bz2
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~riscv ~sparc ~x86"
+KEYWORDS="~alpha amd64 arm ~arm64 ~hppa ~ia64 ppc ppc64 ~riscv sparc x86"
 IUSE="24-bit-color 256-color blink fading-colors +font-styles gdk-pixbuf iso14755 +mousewheel
-	perl startup-notification unicode3 wide-glyphs xft"
+	perl startup-notification unicode3 xft"
 
 RDEPEND=">=sys-libs/ncurses-5.7-r6:=
 	dev-libs/libptytty
@@ -30,9 +30,13 @@ RDEPEND=">=sys-libs/ncurses-5.7-r6:=
 	xft? ( x11-libs/libXft )"
 DEPEND="${RDEPEND}
 	x11-base/xorg-proto"
-BDEPEND="virtual/pkgconfig"
+# autoconf dependency hopefully temporary, see Bug #827852
+BDEPEND="virtual/pkgconfig
+	>=sys-devel/autoconf-2.71"
 
 PATCHES=(
+	"${FILESDIR}"/${PN}-9.06-case-insensitive-fs.patch
+	"${FILESDIR}"/${PN}-9.21-xsubpp.patch
 )
 DOCS=(
 	Changes
@@ -73,7 +77,6 @@ src_configure() {
 		$(use_enable perl)
 		$(use_enable startup-notification)
 		$(use_enable unicode3)
-		$(use_enable wide-glyphs)
 		$(use_enable xft)
 	)
 	if use 24-bit-color; then
@@ -110,12 +113,5 @@ pkg_postinst() {
 	fi
 	if use perl && ! use fading-colors; then
 		ewarn "Note that some of the Perl plug-ins bundled with ${PN} will fail to load without USE=fading-colors"
-	fi
-	if use wide-glyphs; then
-		ewarn
-		ewarn "You have enabled wide-glyph support in ${PN}, which is UNOFFICIAL."
-		ewarn "You may or may not encounter visual glitches or stability issues. When in doubt,"
-		ewarn "rebuild =${CATEGORY}/${PF} with USE=-wide-glyphs (the default setting)."
-		ewarn
 	fi
 }
