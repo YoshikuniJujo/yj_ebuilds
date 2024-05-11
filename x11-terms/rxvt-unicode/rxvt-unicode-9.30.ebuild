@@ -35,7 +35,6 @@ BDEPEND="virtual/pkgconfig
 	>=dev-build/autoconf-2.71"
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-9.21-xsubpp.patch
 )
 DOCS=(
 	Changes
